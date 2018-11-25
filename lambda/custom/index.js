@@ -2,17 +2,17 @@
 /* eslint-disable  no-console */
 
 const Alexa = require('ask-sdk-core');
-const cookbook = require('alexa-cookbook.js');
+const cookbook = require('./alexa-cookbook.js');
 
 //=========================================================================================================================================
 //TODO: The items below this comment need your attention.
 //=========================================================================================================================================
 
-const SKILL_NAME = 'Space Facts';
-const GET_FACT_MESSAGE = 'Here\'s your fact: ';
-const HELP_MESSAGE = 'You can say tell me a space fact, or, you can say exit... What can I help you with?';
+const SKILL_NAME = 'Oscar The Cat Facts';
+const GET_FACT_MESSAGE = 'Here\'s your cat fact: ';
+const HELP_MESSAGE = 'You can say tell me a cat fact, or, you can say exit... What can I help you with?';
 const HELP_REPROMPT = 'What can I help you with?';
-const FALLBACK_MESSAGE = 'The Space Facts skill can\'t help you with that.  It can help you discover facts about space if you say tell me a space fact. What can I help you with?';
+const FALLBACK_MESSAGE = 'The Oscar The Cat Facts skill can\'t help you with that.  It can help you discover facts about what cats think, if you say tell me a cat fact. What can I help you with?';
 const FALLBACK_REPROMPT = 'What can I help you with?';
 const STOP_MESSAGE = 'Goodbye!';
 
@@ -21,19 +21,19 @@ const STOP_MESSAGE = 'Goodbye!';
 //=========================================================================================================================================
 
 const data = [
-  'A year on Mercury is just 88 days long.',
-  'Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.',
-  'Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.',
-  'On Mars, the Sun appears about half the size as it does on Earth.',
-  'Earth is the only planet not named after a god.',
-  'Jupiter has the shortest day of all the planets.',
-  'The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.',
-  'The Sun contains 99.86% of the mass in the Solar System.',
-  'The Sun is an almost perfect sphere.',
-  'A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.',
-  'Saturn radiates two and a half times more energy into space than it receives from the sun.',
-  'The temperature inside the Sun can reach 15 million degrees Celsius.',
-  'The Moon is moving approximately 3.8 cm away from our planet every year.',
+  'Treats are better than dry food.',
+  'Wet food is possibly better than treats.',
+  'Despite having a lot of fur, I like the heat.',
+  'Sitting beside the fire on a hot summer day just makes sense.',
+  'You should play with bugs and then eat them.',
+  'Other cats, especially ones you live with, are annoying.',
+  'Anything can be a scratching post.  Anything.',
+  'Dogs are not particularly smart, but neither are Humans.',
+  'If your hooman is not cooperative, meowing and pawing at a door usually sets them straight.',
+  'Hoomans exist to serve cats, the other way around is absurd.',
+  'If at first you do not succeed, well, just give up and find a spot in the sun.',
+  'A cat should not fetch, it is demeaning to our kind.',
+  'While a dogs bark is worse than its bite, a cats claws hurt exactly how much you imagine.',
 ];
 
 //=========================================================================================================================================

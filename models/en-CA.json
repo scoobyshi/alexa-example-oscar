@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "space facts",
+      "invocationName": "oscar the cat",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -19,19 +19,13 @@
           "name": "GetNewFactIntent",
           "samples": [
             "a fact",
-            "a space fact",
-            "tell me a fact",
-            "tell me a space fact",
-            "give me a fact",
-            "give me a space fact",
-            "tell me trivia",
-            "tell me a space trivia",
-            "give me trivia",
-            "give me a space trivia",
-            "give me some information",
-            "give me some space information",
-            "tell me something",
-            "give me something"
+            "a cat fact",
+            "tell me a cat fact",
+            "give me a cat fact",
+            "tell me a cat trivia",
+            "what does oscar think",
+            "tell me what does oscar think",
+            "what is oscar thinking"
           ],
           "slots": []
         }
